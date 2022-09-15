@@ -1,0 +1,18 @@
+.image-row{
+    display: flex;
+}
+.image-row:nth-of-type(odd){
+    justify-content: flex-start;
+}
+.image-row:nth-of-type(even){
+    justify-content: flex-end;
+}
+.image-card{
+    width: 50%;
+    margin: 50px 0px;
+}
+.image-card img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
